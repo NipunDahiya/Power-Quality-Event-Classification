@@ -1,0 +1,3 @@
+This project evaluates and compares various power quality event classification techniques. We have tested 4 feature extraction techniques along with 3 classification techniques. Feature extraction techniques used are STFT,
+Wavelet transform (WT), Multi-level wavelet decomposition and Hilbert Huang transform. Classification techniques used are KNN, ANN and Random Forest. All the techniques are trained and tested in 80:20 ratio on the dataset of 50,000 signals
+that we have generated. There are a total of 12 methods that are being compared, dataset generation and feature extraction is done in MATLAB while classification is done in python.
